@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box" style="margin: 10px;">
+        <div id="leveltab">
+            <button class="level" id="easy">Easy</button>
+            <button class="level" id="normal">Normal</button>
+            <button class="level" id="hard">Hard</button>
+            <button class="level" id="expert">Expert</button>
+        </div>
+
+        <div class="form" id="form">
+            <div id="tabs">
+                <h4 class="totalques" id="total">attempted: 0</h4>
+                <h4 class="score" id="score">score: 0</h4>
+            </div>
+            <div id="holder">
+                <h1 id="question">What is 1 multiply 1?</h1>
+                <input type="text" class="input" id="input" placeholder="Enter your answer" autocomplete="off">
+                <!--
+                    1. placeholder property gives the default text on the input bar
+                    2. autofocus lets cursor be automatically situated at the input box without moving the mouse pointer
+                    3. autocomplete property suggests you the answers after you have entered them, turning it off will not confuse the users to enter suggested answers
+                -->
+                <button class="btn" id="submit">Submit</button>
+            </div>
+            <button class="btn" id="start" style="margin-bottom: 0px;">Start</button> 
+        </div>        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
